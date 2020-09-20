@@ -22,94 +22,37 @@ const hour9 = $('#time9').text();
 $(this).click(function() {
   if($('#text1').val()) {
     localStorage.removeItem('text1');
-  }
+  } else if($('#text2').val()) {
+    localStorage.removeItem('text2')
+  } else if($('#text3').val()) {
+    localStorage.removeItem('text3')
+  } else if($('#text4').val()) {
+    localStorage.removeItem('text4')
+  } else if($('#text5').val()) {
+    localStorage.removeItem('text5')
+  } else if($('#text6').val()) {
+    localStorage.removeItem('text6')
+  } else if($('#text7').val()) {
+    localStorage.removeItem('text7')
+  } else if($('#text8').val()) {
+    localStorage.removeItem('text8')
+  } else if($('#text9').val()) {
+    localStorage.removeItem('text9')
+  } 
 
   const hour1String = JSON.stringify(hour1);
   
   localStorage.setItem(hour1, $('#text1').val());
-
-});
-
-
-$('#save2').click(function() {
-  if($('#text2').val()) {
-    localStorage.removeItem('text2');
-  }
-
-  const hour2String = JSON.stringify(hour2);
-
   localStorage.setItem(hour2, $('#text2').val());
-});
-
-$('#save3').click(function() {
-  if($('#text3').val()) {
-    localStorage.removeItem('text3');
-  }
-
-  const hour3String = JSON.stringify(hour3);
-
   localStorage.setItem(hour3, $('#text3').val());
-});
-
-$('#save4').click(function() {
-  if($('#text4').val()) {
-    localStorage.removeItem('text4');
-  }
-
-  const hour4String = JSON.stringify(hour4);
-
   localStorage.setItem(hour4, $('#text4').val());
-});
-
-$('#save5').click(function() {
-  if($('#text5').val()) {
-    localStorage.removeItem('text5');
-  }
-
-  const hour5String = JSON.stringify(hour5);
-
   localStorage.setItem(hour5, $('#text5').val());
-});
-
-$('#save6').click(function() {
-  if($('#text6').val()) {
-    localStorage.removeItem('text6');
-  }
-
-  const hour6String = JSON.stringify(hour6);
-
   localStorage.setItem(hour6, $('#text6').val());
-});
-
-$('#save7').click(function() {
-  if($('#text7').val()) {
-    localStorage.removeItem('text7');
-  }
-
-  const hour7String = JSON.stringify(hour7);
-
   localStorage.setItem(hour7, $('#text7').val());
-})
-
-$('#save8').click(function() {
-  if($('#text8').val()) {
-    localStorage.removeItem('text8');
-  }
-
-  const hour8String = JSON.stringify(hour8);
-
   localStorage.setItem(hour8, $('#text8').val());
-})
-
-$('#save9').click(function() { 
-  if($('#text9').val()) {
-    localStorage.removeItem('text9');
-  }
-
-  const hour9String = JSON.stringify(hour9);
-
   localStorage.setItem(hour9, $('#text9').val());
-})
+
+});
 
 //displays local storage items on planner//
 document.getElementById("text1").innerHTML = localStorage.getItem(hour1)
