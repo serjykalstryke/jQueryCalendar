@@ -19,7 +19,7 @@ const hour9 = $('#time9').text();
 
 //Store user input in local Storage//
 
-$('#btn1').click(function() {
+$('#save1').click(function() {
   if($('#text1').val()) {
     localStorage.removeItem('text1');
   }
@@ -31,7 +31,7 @@ $('#btn1').click(function() {
 });
 
 
-$('#btn2').click(function() {
+$('#save2').click(function() {
   if($('#text2').val()) {
     localStorage.removeItem('text2');
   }
@@ -41,7 +41,7 @@ $('#btn2').click(function() {
   localStorage.setItem(hour2, $('#text2').val());
 });
 
-$('#btn3').click(function() {
+$('#save3').click(function() {
   if($('#text3').val()) {
     localStorage.removeItem('text3');
   }
@@ -51,7 +51,7 @@ $('#btn3').click(function() {
   localStorage.setItem(hour3, $('#text3').val());
 });
 
-$('#btn4').click(function() {
+$('#save4').click(function() {
   if($('#text4').val()) {
     localStorage.removeItem('text4');
   }
@@ -61,7 +61,7 @@ $('#btn4').click(function() {
   localStorage.setItem(hour4, $('#text4').val());
 });
 
-$('#btn5').click(function() {
+$('#save5').click(function() {
   if($('#text5').val()) {
     localStorage.removeItem('text5');
   }
@@ -71,7 +71,7 @@ $('#btn5').click(function() {
   localStorage.setItem(hour5, $('#text5').val());
 });
 
-$('#btn6').click(function() {
+$('#save6').click(function() {
   if($('#text6').val()) {
     localStorage.removeItem('text6');
   }
@@ -81,7 +81,7 @@ $('#btn6').click(function() {
   localStorage.setItem(hour6, $('#text6').val());
 });
 
-$('#btn7').click(function() {
+$('#save7').click(function() {
   if($('#text7').val()) {
     localStorage.removeItem('text7');
   }
@@ -91,7 +91,7 @@ $('#btn7').click(function() {
   localStorage.setItem(hour7, $('#text7').val());
 })
 
-$('#btn8').click(function() {
+$('#save8').click(function() {
   if($('#text8').val()) {
     localStorage.removeItem('text8');
   }
@@ -101,7 +101,7 @@ $('#btn8').click(function() {
   localStorage.setItem(hour8, $('#text8').val());
 })
 
-$('#btn9').click(function() { 
+$('#save9').click(function() { 
   if($('#text9').val()) {
     localStorage.removeItem('text9');
   }
@@ -151,7 +151,7 @@ function colorCoding() {
       }
       
       if (hourInInt < hourNow24) {
-        $('#text'+i).css('background-color', 'lightgray');
+        $('#text'+i).css('background-color', 'lightgrey');
       } 
       else {
         $('#text'+i).css('background-color', 'lightgreen');
