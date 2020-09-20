@@ -29,7 +29,7 @@ textarea{
   background-color: #5E2750;
   color: white;
   min-width: 20px;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
 }
 
 .btn:hover {
@@ -48,7 +48,7 @@ textarea{
   display: flex;
   align-items: center;
   color: #fff;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
   min-width: 20px;
 }
 
