@@ -17,16 +17,6 @@ const hour7 = $('#time7').text();
 const hour8 = $('#time8').text();
 const hour9 = $('#time9').text();
 
-const hour1Int = parseInt(hour1);
-const hour2Int = parseInt(hour2);
-const hour3Int = parseInt(hour3);
-const hour4Int = parseInt(hour4);
-const hour5Int = parseInt(hour5);
-const hour6Int = parseInt(hour6);
-const hour7Int = parseInt(hour7);
-const hour8Int = parseInt(hour8);
-const hour9Int = parseInt(hour9);
-
 //Store user input in local Storage//
 
 $('#btn1').click(function() {
