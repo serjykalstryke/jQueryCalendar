@@ -26,90 +26,90 @@ $(this).click(function() {
 
   const hour1String = JSON.stringify(hour1);
   
-  localStorage.setItem(hour1, $(this).val());
+  localStorage.setItem(hour1, $('#text1').val());
 
 });
 
 
-// $('#save2').click(function() {
-//   if($('#text2').val()) {
-//     localStorage.removeItem('text2');
-//   }
+$('#save2').click(function() {
+  if($('#text2').val()) {
+    localStorage.removeItem('text2');
+  }
 
-//   const hour2String = JSON.stringify(hour2);
+  const hour2String = JSON.stringify(hour2);
 
-//   localStorage.setItem(hour2, $('#text2').val());
-// });
+  localStorage.setItem(hour2, $('#text2').val());
+});
 
-// $('#save3').click(function() {
-//   if($('#text3').val()) {
-//     localStorage.removeItem('text3');
-//   }
+$('#save3').click(function() {
+  if($('#text3').val()) {
+    localStorage.removeItem('text3');
+  }
 
-//   const hour3String = JSON.stringify(hour3);
+  const hour3String = JSON.stringify(hour3);
 
-//   localStorage.setItem(hour3, $('#text3').val());
-// });
+  localStorage.setItem(hour3, $('#text3').val());
+});
 
-// $('#save4').click(function() {
-//   if($('#text4').val()) {
-//     localStorage.removeItem('text4');
-//   }
+$('#save4').click(function() {
+  if($('#text4').val()) {
+    localStorage.removeItem('text4');
+  }
 
-//   const hour4String = JSON.stringify(hour4);
+  const hour4String = JSON.stringify(hour4);
 
-//   localStorage.setItem(hour4, $('#text4').val());
-// });
+  localStorage.setItem(hour4, $('#text4').val());
+});
 
-// $('#save5').click(function() {
-//   if($('#text5').val()) {
-//     localStorage.removeItem('text5');
-//   }
+$('#save5').click(function() {
+  if($('#text5').val()) {
+    localStorage.removeItem('text5');
+  }
 
-//   const hour5String = JSON.stringify(hour5);
+  const hour5String = JSON.stringify(hour5);
 
-//   localStorage.setItem(hour5, $('#text5').val());
-// });
+  localStorage.setItem(hour5, $('#text5').val());
+});
 
-// $('#save6').click(function() {
-//   if($('#text6').val()) {
-//     localStorage.removeItem('text6');
-//   }
+$('#save6').click(function() {
+  if($('#text6').val()) {
+    localStorage.removeItem('text6');
+  }
 
-//   const hour6String = JSON.stringify(hour6);
+  const hour6String = JSON.stringify(hour6);
 
-//   localStorage.setItem(hour6, $('#text6').val());
-// });
+  localStorage.setItem(hour6, $('#text6').val());
+});
 
-// $('#save7').click(function() {
-//   if($('#text7').val()) {
-//     localStorage.removeItem('text7');
-//   }
+$('#save7').click(function() {
+  if($('#text7').val()) {
+    localStorage.removeItem('text7');
+  }
 
-//   const hour7String = JSON.stringify(hour7);
+  const hour7String = JSON.stringify(hour7);
 
-//   localStorage.setItem(hour7, $('#text7').val());
-// })
+  localStorage.setItem(hour7, $('#text7').val());
+})
 
-// $('#save8').click(function() {
-//   if($('#text8').val()) {
-//     localStorage.removeItem('text8');
-//   }
+$('#save8').click(function() {
+  if($('#text8').val()) {
+    localStorage.removeItem('text8');
+  }
 
-//   const hour8String = JSON.stringify(hour8);
+  const hour8String = JSON.stringify(hour8);
 
-//   localStorage.setItem(hour8, $('#text8').val());
-// })
+  localStorage.setItem(hour8, $('#text8').val());
+})
 
-// $('#save9').click(function() { 
-//   if($('#text9').val()) {
-//     localStorage.removeItem('text9');
-//   }
+$('#save9').click(function() { 
+  if($('#text9').val()) {
+    localStorage.removeItem('text9');
+  }
 
-//   const hour9String = JSON.stringify(hour9);
+  const hour9String = JSON.stringify(hour9);
 
-//   localStorage.setItem(hour9, $('#text9').val());
-// })
+  localStorage.setItem(hour9, $('#text9').val());
+})
 
 //displays local storage items on planner//
 document.getElementById("text1").innerHTML = localStorage.getItem(hour1)
