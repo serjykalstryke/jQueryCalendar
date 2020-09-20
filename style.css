@@ -61,12 +61,8 @@ textarea{
 }
 
 @media screen and (max-width: 600px) {
-  .btn, .timeValue {
+  .btn, .timeValue, .row {
     font-size: 10px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .row, .btn, .timeValue, .content {
     height: 50px;
   }
 }
