@@ -62,7 +62,7 @@ textarea{
 
 @media screen and (max-width: 800px) {
   .btn, .timeValue, .row, .content {
-    font-size: 2vw;
+    font-size: 1.9vw;
     height: 50px;
     width: -20%;
   }
