@@ -29,8 +29,11 @@ textarea{
   background-color: #5E2750;
   color: white;
   min-width: 20px;
-  font-size: 1.6vw;
+  font-size: 20px;
+
 }
+
+
 
 .btn:hover {
   transition: all .3s ease-in-out;
@@ -48,10 +51,17 @@ textarea{
   display: flex;
   align-items: center;
   color: #fff;
-  font-size: 1.6vw;
+  font-size: 20px;
   min-width: 20px;
 }
 
+
 #currentTime {
   margin-bottom: -20px
+}
+
+@media screen and (max-width: 600px) {
+  .btn, .timeValue {
+    font-size: 10px;
+  }
 }
