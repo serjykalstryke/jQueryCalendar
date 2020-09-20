@@ -2,11 +2,7 @@
 
 let timeNow = moment().format('dddd, MMMM Do YYYY');
 let currentTime = moment().hour();
-let hourNow = moment().format('h');
 let clock = moment().format('hh:mm')
-let hourNow24= parseInt(moment().format('HH'));
-let hourNowInt = parseInt(hourNow);
-let Timer;
 const appointments = ["9AM", "10AM", "11AM", "12PM", "1PM", "2PM", "3PM", "4PM", "5PM"]
 
 //initialize application by pulling items from local storage//
