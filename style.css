@@ -60,9 +60,10 @@ textarea{
   margin-bottom: -20px
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .btn, .timeValue, .row, .content {
-    font-size: 10px;
+    font-size: 2vw;
     height: 50px;
+    width: -20%;
   }
 }
