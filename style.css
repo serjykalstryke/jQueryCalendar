@@ -5,6 +5,10 @@ body {
   background: #E95420;
 }
 
+.container {
+  align-items: center;
+}
+
 textarea{
   background: transparent;
   border: none;
@@ -35,21 +39,18 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-.time {
-  color: #fff
-}
-
 .content {
   border-radius: 0px;
 }
 
-.time {
+.timeValue {
   border-radius:4px;
   background-color: #77216F;
   vertical-align: middle;
   text-align: center;
   display: flex;
   align-items: center;
+  color: #fff
 }
 
 #currentTime {
