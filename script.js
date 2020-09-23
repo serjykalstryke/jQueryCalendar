@@ -6,15 +6,15 @@ let clock = moment().format('hh:mm')
 const appointments = ["9AM", "10AM", "11AM", "12PM", "1PM", "2PM", "3PM", "4PM", "5PM"]
 
 //initialize application by pulling items from local storage//
-function init() {
+function start() {
   $(document).ready(function () {
-    for (var j = 9; j < 18; j++) {
-      $(".content").eq(j - 9).val(localStorage.getItem(appointments[j - 9]));
+    for (var i = 9; i < 18; i++) {
+      $(".content").eq(i - 9).val(localStorage.getItem(appointments[j - 9]));
     }
   });
 }
 
-init();
+start();
 
 //save function to save items to local storage//
 $(".save").click(function () {
